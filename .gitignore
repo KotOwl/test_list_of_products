@@ -1,0 +1,20 @@
+# Ignore MySQL runtime files
+mysql/
+*.sock
+
+# Ignore PyCharm and Python files
+.idea/
+__pycache__/
+*.pyc
+
+# Ignore Node.js and React build files
+node_modules/
+build/
+client/build/
+client/node_modules/
+
+# OS files
+.DS_Store
+
+# .env and secrets
+.env
